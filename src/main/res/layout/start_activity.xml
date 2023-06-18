@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFBF4"
+    android:backgroundTint="#FCFBF4"
+    tools:context=".ActivityStart">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="WELCOME TO THE APP"
+        android:textAlignment="center"
+        android:textColor="#2C2A2A"
+        android:textColorLink="#E42929"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:text="CUSTOMER LOGIN"
+        android:textAlignment="center"
+        android:textColorLink="#E42929"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="200dp"
+        android:text="LOGIN"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:text="REGISTER"
+        android:textColor="@color/black" />
+
+    <Button
+
+        android:id="@+id/guest"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerButton"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:text="GUEST LOGIN"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>
